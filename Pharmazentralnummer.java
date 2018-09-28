@@ -35,7 +35,7 @@ public class Pharmazentralnummer{
             }while(check == 10);
             pzn = pzn * 10;
             pzn = pzn + check;
-            String out = String.format("last: %08d next: %08d",last,pzn);
+            String out = String.format("last: %08d next: %08d",last,pzn); //persistPZN(pzn);
             System.out.println(out);
         }
     }
